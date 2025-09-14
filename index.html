@@ -26,53 +26,45 @@
   </head>
 
   <body>
-    <nav
-      class="navbar navbar-expand-lg"
-      style="background-color: #e3f2fd"
-      data-bs-theme="light"
+    <header
+      class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom container-fluid"
     >
-      <div class="container-fluid">
-        <a class="navbar-brand d-flex align-items-center" href="/">
-          <img
-            src="img1.jpeg"
-            class="img-fluid rounded-circle"
-            style="width: 40px"
-            alt=""
-          />
+      <a
+        href="/"
+        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+      >
+        <img
+          src="img1.jpeg"
+          class="img-fluid rounded-circle"
+          style="width: 40px"
+          alt=""
+        />
+        <svg class="bi me-2" width="40" height="32" aria-hidden="true">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+        <span class="fs-4">Ricardo Reyes Casanova</span>
+      </a>
+      <div>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link active" aria-current="page"
+              >Home</a
+            >
+          </li>
 
-          <h1 class="h6">Ricardo Andres Reyes Casanova</h1></a
-        >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarColor03"
-          aria-controls="navbarColor03"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarColor03">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/"
-                >Acerca de mi</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/mis-trabajos.html">Mis trabajos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/hobbies.html">Hobbies</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contacto.html">Contactame</a>
-            </li>
-          </ul>
-        </div>
+          <li class="nav-item">
+            <a href="mis-trabajos.html" class="nav-link">Mis trabajos</a>
+          </li>
+          <li class="nav-item">
+            <a href="hobbies.html" class="nav-link">Hobbies</a>
+          </li>
+          <li class="nav-item">
+            <a href="contacto.html" class="nav-link">Contactame</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </header>
+
     <div id="carouselExample" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
